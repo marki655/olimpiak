@@ -1,4 +1,4 @@
-# olimpiak
+# olimpiak weblap
 ## GitHub proba
-## GitHub proba letoltes
-## GitHub proba feltoltes
+## készítő: Koprivanacz Márk
+## 9.A csop1
