@@ -3,72 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpiak</title>
+    <title>Minelush Szerver - Információk</title>
     <style>
-body {
-            font-family: Arial, sans-serif;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f4;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 20px;
         }
         .container {
             max-width: 800px;
             margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #0081C8; /* Olimpiai kék */
+            color: #2c3e50;
             text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
         }
-        .sport-card {
-            border-left: 5px solid #EE334E; /* Olimpiai piros */
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .info-box {
+            background: #eef2f3;
+            padding: 15px;
+            border-left: 5px solid #3498db;
             margin-bottom: 20px;
-            padding-left: 15px;
-            background: #fafafa;
         }
-        .sport-name {
-            font-weight: bold;
-            font-size: 1.2em;
-            color: #333;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
         }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .rank-admin { color: #e74c3c; font-weight: bold; }
+        .rank-mod { color: #27ae60; font-weight: bold; }
+        .rank-builder { color: #f39c12; font-weight: bold; }
     </style>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="container">
-    <h1>5 Népszerű Olimpiai Sportág</h1>
+    <h1>Minelush Szerver</h1>
 
-    <div class="sport-card">
-        <p class="sport-name">1. Úszás</p>
-        <p>Az egyik legnépszerűbb vizes sport, ahol az úszók különböző úszásnemekben (gyors, mell, hát, pillangó) mérik össze erejüket a medencében.</p>
+    <div class="info-box">
+        <p><strong>Szerver IP:</strong> play.minelush.hu (Példa)</p>
+        <p><strong>Verzió:</strong> 1.20.x +</p>
+        <p><strong>Discord:</strong> discord.gg/minelush</p>
     </div>
 
-    <div class="sport-card">
-        <p class="sport-name">2. Atlétika</p>
-        <p>Az olimpia királynője. Magában foglalja a futást, ugrást és dobóatlétikát. Itt dől el, ki a világ leggyorsabb embere.</p>
-    </div>
+    <h2>Rólunk</h2>
+    <p>A Minelush egy barátságos közösség, ahol a cél a zavartalan játékélmény és a kreativitás kibontakoztatása. Legyen szó Survival-ről, Skyblock-ról vagy egyedi játékmódokról, nálunk megtalálod a helyed!</p>
 
-    <div class="sport-card">
-        <p class="sport-name">3. Vívás</p>
-        <p>Magyarország egyik legsikeresebb sportága. Három fegyvernemben (kard, tőr, párbajtőr) vívnak a versenyzők, ahol a technika és a gyorsaság dönt.</p>
-    </div>
+    <h2>Vezetőség és Staff</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Rang</th>
+                <th>Feladatkör</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PéldaAdmin</td>
+                <td class="rank-admin">Tulajdonos</td>
+                <td>Szerver üzemeltetés, fejlesztés</td>
+            </tr>
+            <tr>
+                <td>Moderátor_Elek</td>
+                <td class="rank-mod">Moderátor</td>
+                <td>Játékosok segítése, rendfenntartás</td>
+            </tr>
+            <tr>
+                <td>Építész_Béla</td>
+                <td class="rank-builder">Építész</td>
+                <td>Spawn és event pályák építése</td>
+            </tr>
+            <tr>
+                <td>Segítő_Sára</td>
+                <td class="rank-mod">Helper</td>
+                <td>Kérdések megválaszolása</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="sport-card">
-        <p class="sport-name">4. Torna</p>
-        <p>Az erő, a rugalmasság és az elegancia ötvözete. A sportolók különböző szereken (korlát, gerenda, gyűrű stb.) mutatják be látványos gyakorlataikat.</p>
-    </div>
-
-    <div class="sport-card">
-        <p class="sport-name">5. Kosárlabda</p>
-        <p>Az egyik legdinamikusabb csapatsport, ahol két 5 fős csapat küzd a pontokért. Az NBA sztárjai is rendszeresen részt vesznek rajta.</p>
-    </div>
-        <!--<b> tag félkövér, <strong>
-        <em>, <i> dőlt-->
+    <p style="text-align: center; margin-top: 40px; font-size: 0.9em; color: #777;">
+        &copy; 2024 Minelush Szerver - Minden jog fenntartva.
+    </p>
 </div>
-    <a href="https://hu.wikipedia.org/wiki/Olimpiai_j%C3%A1t%C3%A9kok" target="_blank" style="text-decoration: none;">További információk olimpiákról</a>
+
 </body>
 </html>
