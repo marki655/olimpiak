@@ -5,18 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olimpiak</title>
     <style>
-        background{
-            color: rgb(161, 117, 49);
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0081C8; /* Olimpiai kék */
+            text-align: center;
+        }
+        .sport-card {
+            border-left: 5px solid #EE334E; /* Olimpiai piros */
+            margin-bottom: 20px;
+            padding-left: 15px;
+            background: #fafafa;
+        }
+        .sport-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
         }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="text-align: center; color: blue;">Olimpiák története</h1>
-    <!--<b> tag félkövér, <strong>
+<div class="container">
+    <h1>5 Népszerű Olimpiai Sportág</h1>
+
+    <div class="sport-card">
+        <p class="sport-name">1. Úszás</p>
+        <p>Az egyik legnépszerűbb vizes sport, ahol az úszók különböző úszásnemekben (gyors, mell, hát, pillangó) mérik össze erejüket a medencében.</p>
+    </div>
+
+    <div class="sport-card">
+        <p class="sport-name">2. Atlétika</p>
+        <p>Az olimpia királynője. Magában foglalja a futást, ugrást és dobóatlétikát. Itt dől el, ki a világ leggyorsabb embere.</p>
+    </div>
+
+    <div class="sport-card">
+        <p class="sport-name">3. Vívás</p>
+        <p>Magyarország egyik legsikeresebb sportága. Három fegyvernemben (kard, tőr, párbajtőr) vívnak a versenyzők, ahol a technika és a gyorsaság dönt.</p>
+    </div>
+
+    <div class="sport-card">
+        <p class="sport-name">4. Torna</p>
+        <p>Az erő, a rugalmasság és az elegancia ötvözete. A sportolók különböző szereken (korlát, gerenda, gyűrű stb.) mutatják be látványos gyakorlataikat.</p>
+    </div>
+
+    <div class="sport-card">
+        <p class="sport-name">5. Kosárlabda</p>
+        <p>Az egyik legdinamikusabb csapatsport, ahol két 5 fős csapat küzd a pontokért. Az NBA sztárjai is rendszeresen részt vesznek rajta.</p>
+    </div>
+        <!--<b> tag félkövér, <strong>
         <em>, <i> dőlt-->
-    <center><img src="olimpia-2.jpg" alt="zászló" width="200" style="margin: auto;"></center>
-    <p>Az <b>olimpiai játékok</b> több sportágat magába foglaló nemzetközi eseménysorozat az ókori olümpiai játékok mintájára. Az újkori olimpiai játékok sora - az ókori olümpiák mintájára, 1503 év elteltével - 1896-ban Athénban kezdődött el, és minden olimpiád elején tartották meg. Az eseménysorozatot egészen 1920-ig csak nyáron rendezték meg. Az első téli olimpiát 1924-ben <em>Franciaország Chamonix</em> nevű városa szervezhette. A nyári és a téli olimpiai játékokat 1992-ig egy éven belül rendezték, 1994-től a nyári játékok az olimpiád első, a téli játékok pedig az <i>olimpiád</i> harmadik évében vannak.</p>
+</div>
     <a href="https://hu.wikipedia.org/wiki/Olimpiai_j%C3%A1t%C3%A9kok" target="_blank" style="text-decoration: none;">További információk olimpiákról</a>
 </body>
 </html>
