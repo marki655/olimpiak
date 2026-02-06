@@ -3,11 +3,8 @@ p{
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url(olimpiahatter.jpg);
-    margin: 0;
-    padding: 20px;
+    background-image: url(zaszlo.jpg);
+    background-size: cover;
 }
 
 h1 {
