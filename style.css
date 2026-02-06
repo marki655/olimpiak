@@ -1,3 +1,16 @@
 p{
     color: rgb(1, 8, 2);
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(olimpiahatter.jpg);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
