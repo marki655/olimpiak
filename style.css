@@ -3,11 +3,27 @@ p{
 }
 
 body {
-    background-image: url(zaszlo.jpg);
-    background-size: cover;
+    /* background-image: url(zaszlo.jpg);
+    background-size: cover; */
 }
 
 h1 {
     color: rgb(255, 0, 0);
     text-align: center;
+}
+
+#okori{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    font-style: italic;
+    text-align: justify; /*dölt betűs*/
+    margin: 20px 100px 20px 100px; /*fölső, jobb, alsó, bal*/
+    font-variant: small-caps;   /*kiskapitális*/
+    line-height: 1.5;   /*sorköz,sorok magassága*/
+    text-transform: capitalize; /*minden szó első betűje nagybetus*/
+    text-transform: lowercase; /*minden kisbetűvel*/
+    text-transform: uppercase; /*csupa negybetűs*/
+}
+#NOB{
+    text-decoration: underline;
 }
